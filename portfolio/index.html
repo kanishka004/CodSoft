@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-u/8W67KrK3UyBL0HKJflkK+XnCkOgo1lBO8wPAKht6mTDv2QeTlv7pFcJ9sykgaHrIl5rDOgI6Uv6YZX9DlA3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kanishka | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar fade-slide-in">
+        <div class="logo">Kanishka.</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section fade-in-section">
+        <div class="about-container">
+            <div class="about-left">
+                <h2>Hi, I'm <span class="highlight">Kanishka Adhikari</span></h2>
+                <h3 class="typewriter" id="typewriter-text"></h3>
+                <p>
+                    I'm a passionate developer who loves crafting clean, modern, and interactive websites. With
+                    experience in front-end development and a love for design, I build seamless digital experiences.
+                </p>
+                <button class="hire-btn">Hire Me</button>
+            </div>
+            <div class="about-right">
+                <img src="assets/myImg.png" alt="Kanishka Adhikari" />
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section fade-in-section">
+        <div class="skills-container">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>100%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-progress="100"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>95%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-progress="95"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-progress="90"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>React</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-progress="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Node.js</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-progress="80"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>MongoDB</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-progress="85"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section fade-in-section">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="slider-container">
+            <button class="arrow left-arrow" id="prev">&#10094;</button>
+
+            <div class="slider" id="slider">
+                <div class="project-card">
+                    <img src="assets/project1.jpg" alt="Project 1">
+                    <h3>Luxury shopping website</h3>
+                    <p>A modern shopping website with responsive UI using HTML, CSS & JS.</p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project2.jpeg" alt="Project 2">
+                    <h3>Blogging application</h3>
+                    <p>A full-stack app with React and Node.js for blogging.</p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project3.jpg" alt="Project 3">
+                    <h3>Quiz Maker</h3>
+                    <p>Quiz Maker built with MERN stack and dynamic routing.</p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project4.jpeg" alt="Project 4">
+                    <h3>Job Portal</h3>
+                    <p>Job Portal using Next.js and Tailwind CSS.</p>
+                </div>
+            </div>
+
+            <button class="arrow right-arrow" id="next">&#10095;</button>
+        </div>
+    </section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section fade-in-section">
+        <h2 class="section-title">My Resume</h2>
+
+        <div class="resume-container">
+            <div class="resume-card">
+                <div class="icon"><i class="fas fa-user-graduate"></i></div>
+                <h3>Education</h3>
+                <p><strong>BCA</strong> – Jagannath International Management School, GGSIPU</p>
+                <p>2023 – 2026</p>
+            </div>
+
+            <div class="resume-card">
+                <div class="icon"><i class="fas fa-briefcase"></i></div>
+                <h3>Experience</h3>
+                <p><strong>Web Developer Intern</strong> – Kaizen Solutions</p>
+                <p>Jan 2025 – Mar 2025</p>
+            </div>
+
+            <div class="resume-card">
+                <div class="icon"><i class="fas fa-certificate"></i></div>
+                <h3>Certifications</h3>
+                <ul>
+                    <li>MERN Stack – Madrid Software</li>
+                    <li>Intro to Generative AI – Google</li>
+                    <li>Responsible AI – Google</li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="assets/resume/Resume Kanishka.pdf" download class="download-btn">Download Resume (PDF)</a>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">I'm open to collaboration and exciting projects. Let's connect!</p>
+
+        <div class="contact-details">
+            <p><strong>Email:</strong> kanishka@example.com</p>
+            <p><strong>Phone:</strong> +91 12345 67890</p>
+            <p><strong>Location:</strong> New Delhi, India</p>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Kanishka Adhikari. All Rights Reserved.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:kanishka@example.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
